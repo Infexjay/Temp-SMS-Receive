@@ -101,15 +101,15 @@ public String decryption(String str, String str2) {
 ```
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @Sl-Sanda-Ru/Temp-SMS-Receive](https://reporoster.com/stars/dark/Sl-Sanda-Ru/Temp-SMS-Receive)](https://github.com/Sl-Sanda-Ru/Temp-SMS-Receive/stargazers)
-[![Forkers repo roster for @Sl-Sanda-Ru/Temp-SMS-Receive](https://reporoster.com/forks/dark/Sl-Sanda-Ru/Temp-SMS-Receive)](https://github.com/Sl-Sanda-Ru/Temp-SMS-Receive/network/members)
+[![Stargazers repo roster for @Infexjay/Temp-SMS-Receive](https://reporoster.com/stars/dark/Infexjay/Temp-SMS-Receive)](https://github.com/Infexjay/Temp-SMS-Receive/stargazers)
+[![Forkers repo roster for @Infexjay-Ru/Temp-SMS-Receive](https://reporoster.com/forks/dark/Infexjay/Temp-SMS-Receive)](https://github.com/Infexjay/Temp-SMS-Receive/network/members)
 
 ## 👤 Author
 
-Sandaru Ashen
+Infexjay
 
-- [GitHub](https://github.com/Sl-Sanda-Ru)
-- [Telegram](https://t.me/Sl_Sanda_Ru)
+- [GitHub](https://github.com/Infexjay)
+- [Telegram](https://t.me/Infexjay)
 
 ## 📜 License
 
