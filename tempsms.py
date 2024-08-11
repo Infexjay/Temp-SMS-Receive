@@ -320,4 +320,4 @@ if __name__ == "__main__":
         info("Successfully Updated")
         info("Run the Program Again")
         exit()
-    main()    main()
+    main()
