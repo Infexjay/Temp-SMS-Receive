@@ -3,8 +3,8 @@
 A Python script to fetch temporary SMS numbers and display received messages.
 
 [![wakatime](https://wakatime.com/badge/user/018e35c7-dffb-4eaa-b21c-9bb81183371b/project/946f7b58-72c0-4ed3-a83f-1dc1d76f842a.svg)](https://wakatime.com/badge/user/018e35c7-dffb-4eaa-b21c-9bb81183371b/project/946f7b58-72c0-4ed3-a83f-1dc1d76f842a)
-[![CodeFactor](https://www.codefactor.io/repository/github/sl-sanda-ru/temp-sms-receive/badge)](https://www.codefactor.io/repository/github/sl-sanda-ru/temp-sms-receive)
-![GitHub License](https://img.shields.io/github/license/Sl-Sanda-Ru/Temp-SMS-Receive?color=green)
+[![CodeFactor](https://www.codefactor.io/repository/github/Infexjay/temp-sms-receive/badge)](https://www.codefactor.io/repository/github/sl-sanda-ru/temp-sms-receive)
+![GitHub License](https://img.shields.io/github/license/Infexjay/Temp-SMS-Receive?color=green)
 
 ## ✨ Features
 
@@ -25,7 +25,7 @@ A Python script to fetch temporary SMS numbers and display received messages.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/Sl-Sanda-Ru/Temp-SMS-Receive.git
+    git clone https://github.com/Infexjay/Temp-SMS-Receive.git
     cd Temp-SMS-Receive
     ```
 
