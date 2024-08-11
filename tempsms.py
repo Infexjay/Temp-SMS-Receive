@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-# By Infexjay: [Your GitHub URL], [Your Telegram URL]
+# By Infexjay: [https://github.com/Infexjay/, [Your Telegram URL]
 
 import os
 import subprocess
@@ -8,72 +8,7 @@ import random
 import time
 import sys
 import base64
-import os
-import subprocess
-import random
-import time
-import sys
-import base64
-from twilio.rest import Client
-from flask import Flask, request, Response
 
-# Twilio configuration
-TWILIO_ACCOUNT_SID = '#'
-TWILIO_AUTH_TOKEN = '#'
-TWILIO_PHONE_NUMBER = '#'
-WEBHOOK_URL = 'https://your-server.com/handle-call'
-
-app = Flask(__name__)
-
-def warn(message: str) -> None:
-    print(f"\x1b[1m\x1b[31m[!] {message}".center(os.get_terminal_size().columns))
-
-def info(message: str) -> None:
-    print(f"\x1b[1m\x1b[92m[+] {message}".center(os.get_terminal_size().columns))
-
-def fetch_authkey() -> str:
-    url = "https://api-1.online/post/"
-    params = {"action": "get_encrypted_api_key", "type": "user"}
-    json = {"api": "111"}
-    rq = requests.post(url, params=params, headers=HEADERS, json=json)
-    return rq.json()["api_key"]
-
-def decrypt_key(encrypted_str: str) -> str:
-    decode = base64.b64decode(encrypted_str)
-    iv = decode[:16]
-    encrypted_data = decode[16:]
-    cipher = AES.new(
-        "9e8986a75ffa32aa187b7f34394c70ea".encode(), AES.MODE_CBC, iv
-    )
-    decrypted_data = unpad(
-        cipher.decrypt(encrypted_data), AES.block_size
-    )
-    return decrypted_data.decode()
-
-AUTH_KEY = decrypt_key(fetch_authkey())
-
-def setup_twilio_client():
-    return Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
-
-@app.route("/handle-call", methods=['POST'])
-def handle_call():
-    from_number = request.values.get('From')
-    call_status = request.values.get('CallStatus')
-    print(f"Received call from {from_number}. Status: {call_status}")
-    return Response("<Response></Response>", mimetype='text/xml')
-
-def main():
-    try:
-        setup_twilio_client()
-        info("Twilio Client Setup Complete")
-        while True:
-            # Your main code logic here
-            pass
-    except KeyboardInterrupt:
-        sys.exit(0)
-
-if __name__ == "__main__":
-    main()
 def warn(message: str) -> None:
     print(f"\x1b[1m\x1b[31m[!] {message}".center(os.get_terminal_size().columns))
 
@@ -385,4 +320,4 @@ if __name__ == "__main__":
         info("Successfully Updated")
         info("Run the Program Again")
         exit()
-    main()
+    main()    main()
